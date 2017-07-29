@@ -1,9 +1,12 @@
+@import "../variables";
+
 .post {
     padding-top: 1em;
 }
 
 .post-block {
     .post-title {
+		font-family: $serif-fonts;
         margin: 0.65em 0;
         color: #2c3e50;
         font-size: 1.5em;

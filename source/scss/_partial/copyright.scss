@@ -1,6 +1,9 @@
+@import "../variables";
+
 footer {
     padding-bottom: 1px;
     .copyright {
+		font-family: $serif-fonts;
         margin: 4em 0;
         border-top: 1px solid #ddd;
         text-align: center;
