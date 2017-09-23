@@ -14,6 +14,12 @@ header {
       color: lighten(#34495e, 10);
     }
   }
+
+  .sub {
+    color: lighten(#34495e, 30);
+    float: left;
+    clear: left;
+  }
 }
 
 .nav {

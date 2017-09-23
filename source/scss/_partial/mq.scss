@@ -21,7 +21,8 @@ main.container {
   }
   header {
     padding: 28px 0 0;
-    a.logo {
+    a.logo,
+    .sub {
       float: none;
       display: block;
       text-align: center;
