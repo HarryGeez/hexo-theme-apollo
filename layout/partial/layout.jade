@@ -5,8 +5,9 @@ html(lang=config.language)
     body
         .wrap
             header
-                a.logo-link(href=url_for())
-                    img(src=url_for(theme.logo) alt="logo")
+                a.logo(href=url_for())
+                    span.fname WEI JIAN 
+                    span.lname GAN
                 include nav
             main.container
                 block container
