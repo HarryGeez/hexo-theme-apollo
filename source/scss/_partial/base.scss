@@ -35,7 +35,11 @@ a, a:active {
 a.nav-list-link.active,
 a.nav-list-link:hover,
 a.post-title-link:hover {
-  border-bottom: 2px solid #4285f4;
+  color: #4285f4;
+}
+
+a.nav-list-link.active {
+  font-weight: 600;
 }
 
 hr {
